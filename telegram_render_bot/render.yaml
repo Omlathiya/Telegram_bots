@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: telegram-reel-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python SnapReel_Bot.py
