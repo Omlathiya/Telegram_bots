@@ -17,7 +17,7 @@ from telegram.ext import (
 
 # Bot token and your channel username
 TELEGRAM_BOT_TOKEN = '<|Your_Bot_Token|>'
-CHANNEL_ID = "<|Channel Id or User name|>"
+CHANNEL_ID = "<|Channel_Id_or_User_name|>"
 
 # Store accepted users (use database or file for persistent storage)
 accepted_users = set()
